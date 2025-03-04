@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Dash</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <header>
+        <h1>Dino Dash 🦖</h1>
+        <p>Jump over obstacles and run as far as you can! Press **Space** to jump.</p>
+    </header>
+    <main>
+         <!-- How to Play Section -->
+         <section class="instructions">
+            <h2>⚠️ Important!</h2>
+        <ul>
+            <li>⚠️ This game only runs in Full-Screen Mode! Click the game screen to continue. Switching Fullscreen mode while playing can cause issues and resolved only after refresh.🚀</li>
+        </ul>
+    </section>
+        <div class="game">
+            <canvas id="board"></canvas> 
+
+            <div id="scoreContainer">
+                <h3>Score:</h3>
+                <div id="score">0</div>
+            </div>
+            <div id="gameOverPopup">
+                <h2>Game Over</h2>
+                <p>Your Score:</p>
+                <div id="finalScore">0</div>
+                <button onclick="restartGame()">Play Again</button>
+            </div>
+        </div>
+    </main>
+    <!-- Social Links -->
+    <div class="social-links">
+        <h1>Social Media Links</h1>
+        <div class="links">
+            <a href="https://github.com/Shaheer-Naveed" target="_blank">
+                <img src="Github.png" alt="GitHub">
+            </a>
+            <a href="mailto:shaheernaveed.official@gmail.com">
+                <img src="Gmail.png" alt="Gmail">
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p>Created by <a href="https://github.com/Shaheer-Naveed">Shaheer Naveed</a></p>
+    </footer>
+</body>
+</html>
